@@ -9,6 +9,10 @@ __pycache__/
 .coverage
 htmlcov/
 
+# Local test-run output
+SourceCode/test-tmp/
+SourceCode/test-results.xml
+
 # Local build intermediates; reproducible helper scripts live in tools/
 .build/
 .chart-data-*/
@@ -26,6 +30,7 @@ htmlcov/
 *.p12
 
 # Editor and OS transient files
+*.code-workspace
 .DS_Store
 Thumbs.db
 ~$*
